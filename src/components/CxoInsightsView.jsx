@@ -273,9 +273,6 @@ export default function CxoInsightsView() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
       <div className="cxo-meta-bar">
-        <span className="cxo-meta-chip">
-          <Icon name="event_repeat" /> Fortnightly
-        </span>
         <SignalDateFilter selectedId={periodId} onChange={setPeriodId} />
         <span className="cxo-meta-chip muted">
           <Icon name="schedule" />
